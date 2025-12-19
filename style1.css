@@ -1,0 +1,129 @@
+* {
+    margin:  0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: #f4f6f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    background: #ffffff;
+    width: 100%;
+    max-width: 350px;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 1px 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.profile-card img {
+    margin-top: 5px;
+    width: 130px;
+    height: 130px;
+    border-radius: 30%;
+    margin-bottom: 15px;
+    margin-right: 2px;
+}
+
+.profile-card h2 {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.role {
+    color: #666;
+    font-size: 14px;
+}
+
+.about {
+    margin: 15px 0;
+    font-size: 14px;
+    color: #444;
+}
+
+.profile-card ul {
+    list-style: none;
+    margin: 10px 0 20px;
+}
+
+.profile-card ul li {
+    background: #eef2f5;
+    padding: 6px;
+    margin: 5px 0;
+    border-radius: 6px;
+    font-size: 13px;
+}
+
+table {
+    width: 100%;
+    border-radius: 10px ;
+    
+    margin-bottom: 15px;
+    border-collapse: separate;
+    border-spacing: 0;
+    overflow: hidden;
+}   
+
+table td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    font-size: 13px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+
+.links a {
+    text-decoration: none;
+    margin: 0 8px;
+    color: #0077cc;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+}
+
+form textarea {
+    resize: none;
+    height: 60px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077cc;
+    color: white;
+    border:rgba(0, 0, 0, 0.1);
+    border-radius: 70px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background-color: #005fa3;
+    transform: scale(.97);
+}
+.profile-card img:hover {
+    transform: scale(1.08);
+    box-shadow: 4px 8px 20px rgba(0, 119, 204, 0.4);
+}
